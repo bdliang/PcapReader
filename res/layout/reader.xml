@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tittle_text"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tittle_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFCCCCCC"
+        android:gravity="center"
+        android:text="@string/packets_captured"
+        android:textColor="#FFFFFF00" >
+    </TextView>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </ListView>
+
+</LinearLayout>
